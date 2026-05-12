@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Football Stats Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>⚽ Football Stats Dashboard</h1>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search player...">
+      <button onclick="searchPlayer()">Search</button>
+    </div>
+
+    <div class="card" id="playerCard">
+      <img id="playerImage" src="https://img.magnific.com/premium-vector/football-player-soccer-isolated-vector-silhouette-team-sport-athlete-logo_951119-1195.jpg?semt=ais_hybrid&w=740&q=80" alt="player">
+
+      <h2 id="playerName">Key Player Name</h2>
+      <p id="team">Team Name</p>
+
+      <div class="stat">
+        <span>Goals</span>
+        <div class="bar">
+          <div class="fill" id="goalsBar"></div>
+        </div>
+        <span id="goalsText">00</span>
+      </div>
+
+      <div class="stat">
+        <span>Assists</span>
+        <div class="bar">
+          <div class="fill assists" id="assistsBar"></div>
+        </div>
+        <span id="assistsText">00</span>
+      </div>
+
+      <div class="stat">
+        <span>Matches</span>
+        <div class="bar">
+          <div class="fill matches" id="matchesBar"></div>
+        </div>
+        <span id="matchesText">00</span>
+      </div>
+    </div>
+
+    <button class="theme-btn" onclick="toggleTheme()">
+      Toggle Dark Mode
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
