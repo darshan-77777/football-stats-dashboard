@@ -227,6 +227,15 @@ const players = {
     image:
       "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?q=80&w=800&auto=format&fit=crop",
   },
+    casemiro: {
+    name: "Casemiro",
+    team: "Manchester United",
+    goals: 7,
+    assists: 5,
+    matches: 33,
+    image:
+      "https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=800&auto=format&fit=crop",
+  },
 };
 
 function searchPlayer() {
