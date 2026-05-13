@@ -12,3 +12,7 @@ A simple football player stats dashboard built using HTML, CSS, and JavaScript.
 - HTML
 - CSS
 - JavaScript
+
+## Screenshot
+
+![Dashboard Preview](images/dashboard.png)
