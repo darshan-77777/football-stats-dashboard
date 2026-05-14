@@ -277,6 +277,19 @@ function searchPlayer() {
 
   document.getElementById("matchesBar").style.width =
     player.matches * 2 + "%";
+
+    if(player.goals >= 50){
+
+  document.getElementById("playerBadge").textContent =
+    "🏆 Top Scorer";
+
+}
+else{
+
+  document.getElementById("playerBadge").textContent =
+    "";
+
+}
 }
 
 function toggleTheme() {

@@ -111,3 +111,10 @@ h1{
 .dark .card{
   background:#1e1e1e;
 }
+
+#playerBadge{
+  margin-top:10px;
+  color:gold;
+  font-size:22px;
+  text-align:center;
+}
